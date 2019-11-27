@@ -1,0 +1,178 @@
+.row{
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+.row::after{
+	content      : "";
+	clear        : both;
+	display      : table;
+}
+
+[class*="col-*"]{
+	float        : left;
+	padding      : 15px;
+}
+
+.col-1{ width: 8.33%; }
+.col-2{ width: 16.66%; }
+.col-3{ width: 25%; }
+.col-4{ width: 33.33%; }
+.col-5{ width: 41.66%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.33%; }
+.col-8{ width: 66.66%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.33%; }
+.col-11{ width: 91.66%; }
+.col-12{ width: 100%; }
+
+
+/*.spa-shell-logo, .spa-shell-head-acct, .spa-shell-head-search, .spa-shell-foot, .spa-shell-modal , .spa-shell-head-acct{
+	position : absolute;
+}*/
+.spa-shell-main{
+	background: #4ac23a;
+}
+.spa-shell-head{
+	top          : 0;
+	left         : 0;
+	right        : 0;
+	height       : 50px;
+	background   : #3ddbeb7d;
+	/*background   : #ecab33;*/
+	/*display: block;*/
+}
+
+#spa-shell-head-id-logo{
+	height       : 100%;
+	width        : 200px;
+	text-align   : center;
+	padding-top  : 15px;
+
+}
+#spa-shell-head-id-logo a{
+	font-weight  : bold; 
+}
+
+a .spa-shell-head-icon{
+	display: inline-block;
+	font-size: 20px;
+	padding : 0 20px;
+	height: 40px;
+}
+/*.spa-shell-head-logo{
+	top        : 4px;
+	left 	   : 8px;
+	height     : 32px;
+	width      : 128px;
+	background : orange;
+}
+
+.spa-shel-head-logo h1{
+	font : 800 22px/22px Arial, Helvetica, sans-serif;
+	margin : 0;
+}
+
+.spa-shell-head-acct{
+	top 		: 4px;
+	right       : 0;
+ 	float       : right;
+	width       : 210px; 
+	height      : 32px;
+	line-height : 32px; 
+	background  : #888;
+	color       : #fff;
+	text-align  : center;
+	cursor      : pointer;
+	overflow    : hidden;
+	text-overflow: ellipsis; 
+	position:  absolute;
+}
+
+
+.spa-shell-head-search{
+	top 	    : 4px;
+	right       : 64px;
+	width       : 248px;
+	height      : 32px;
+	background  : blue;
+}*/
+
+.spa-shell-main-content, .spa-shell-main-nav{
+	top         : 0;
+	bottom      : 0;
+	float       : left;
+
+}
+
+.spa-shell-main-nav{
+	background  :  #eee; 
+	z-index     :  1;
+	height      :  600px;
+}
+
+.spa-shell-main-nav ul{
+	list-style-type  : none;
+  	padding-top      : 50px;
+  	height           : 100%;
+  	background-color : #8A2BE2;
+}
+
+.spa-shell-main-nav li{
+  width: 100%;
+}
+
+.spa-shell-main-nav li a{
+  display: block;
+  color: #000;
+  padding: 20px 40px ;
+  text-decoration: none;
+  text-align: left;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.spa-shell-main-nav li a:hover{
+  background-color: #555;
+  color: white;
+}
+
+.spa-x-closed .spa-shell-main-nav{
+	width       : 0;       
+}
+.spa-shell-main-content{
+	/*left        : 400px;*/
+	/*display: inline-block;*/
+	right       :  0;
+	height      :  600px; 
+	background  :  #ddd;  
+}
+.spa-x-closed .spa-shell-main-content{
+	left        :  0;
+}
+.spa-shell-main-update{
+
+	background   : #eee;
+	height       : 600px;
+	float        : left;
+}
+
+.spa-shell-footer{
+	bottom      : 0;
+	left        : 0;
+	right       : 0;
+	height      : 80px;
+	background  : #413531; 
+}
+/*
+.spa-shell-modal{
+	margin-top   : -200px;
+	margin-left  : -200px;
+	top          : 50%;
+	left         : 50%;
+	width        : 400px; 
+	height       : 400px;
+	background   : #fff;
+	border-radius: 3px;
+	z-index      : 2; 
+}*/
